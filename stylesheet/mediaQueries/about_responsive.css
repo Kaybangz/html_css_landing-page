@@ -1,0 +1,105 @@
+@media (max-width: 970px){
+    .about_us section{
+        width: 90%;
+    }
+
+    .about_us_text{
+        width: 70%;
+    }
+
+    .about_us section div img{
+        width: 410px;
+        height: 410px;
+    }
+    
+    .about_us section div h2{
+        font-size: 27px;
+    }
+
+    .about_us section div p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 800px){
+    .about_us section{
+        width: 90%;
+    }
+
+    .about_us_text{
+        width: 75%;
+    }
+
+    .about_us section div img{
+        width: 370px;
+        height: 370px;
+    }
+    
+    .about_us section div h2{
+        font-size: 26px;
+    }
+
+    .about_us section div p{
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width: 670px){
+    .about_us section{
+        width: 80%;
+    }
+
+    .about_us_item1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_us_item2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_us_item3{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .about_us_text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .mission_img, .vision_img, .contribution_img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_us section div img{
+        width: 350px;
+        height: 350px;
+    }
+    
+    .about_us section div h2{
+        font-size: 30px;
+        margin-bottom: .3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_us section div p{
+        font-size: 19px;
+        line-height: 26px;
+    }
+}
